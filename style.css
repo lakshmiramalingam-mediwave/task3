@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Teko", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .total {
+    padding: 15px;
+  }
+  .course-activity {
+    padding: 40px 30px;
+    background-color: #f4f6ff;
+    border-radius: 30px;
+  }
+  .course-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    vertical-align: middle;
+  }
+  .date h1 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #24243a;
+  }
+  .date h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #0068ff;
+  }
+  .plus {
+    width: 45px;
+    background-color: #0068ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .plus img {
+    width: 24px;
+    height: 24px;
+  }
+  .middle {
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 26px;
+  }
+  .course {
+    display: flex;
+  }
+  .course h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #a2a9c8;
+    padding-right: 14px;
+  }
+  .left-arrow {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    margin: 0px 6px;
+    padding: 0px 10px;
+  }
+  .right-arrow {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    margin: 0px 6px;
+    padding: 0px 10px;
+  }
+  .course img {
+    width: 15px;
+    height: 15px;
+  }
+  .icon-menu {
+    display: flex;
+    width: 68px;
+    height: 38px;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+  }
+  .icon-menu img {
+    width: 22px;
+    height: 22px;
+    padding: 4px 5px;
+  }
+  .menu-icon {
+    background-color: #0068ff;
+    border-radius: 50%;
+  }
+  .card {
+    background-color: #0068ff;
+    border-radius: 15px;
+    padding: 18px;
+    margin-bottom: 15px;
+  }
+  .card2 {
+    background-color: #cf74ff;
+    border-radius: 15px;
+    padding: 18px;
+    margin-bottom: 15px;
+  }
+  .card3 {
+    background-color: #fadb39;
+    border-radius: 15px;
+    padding: 18px;
+    margin-bottom: 15px;
+  }
+  .card4 {
+    background-color: #ed7071;
+    border-radius: 15px;
+    padding: 18px;
+    margin-bottom: 15px;
+  }
+  .flex-layout {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content-img {
+    display: flex;
+  }
+  .facebook-img img {
+    width: 155px;
+    height: 155px;
+    padding-right: 10px;
+  }
+  .number {
+    background-color: white;
+    height: 40px;
+    width: 38px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 15px;
+  }
+  .head-para h3,
+  p {
+    color: white;
+  }
+  .enroll-twelve p {
+    padding-top: 15px;
+    padding-right: 5px;
+  }
+  .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .enroll-white {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+  }
+  .progess {
+    margin-top: 22px;
+    margin-left: 10px;
+    background-color: grey;
+    height: 8px;
+    width: 370px;
+    border-radius: 20px;
+  }
+  .enroll-white img {
+    padding-bottom: 5px;
+  }
+  .progress-grey {
+    margin-top: 22px;
+    margin-left: 10px;
+    background-color: white;
+    height: 8px;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .total-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .back-img,
+  .notification-img {
+    width: 50px;
+    height: 50px;
+  }
+  .top-learning {
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .student {
+    color: #0068ff;
+  }
+  .profile {
+    justify-content: right;
+    display: flex;
+  }
+  .right-side {
+  }
+  .learn-background {
+    color: #a2a9c8;
+    padding-left: 35px;
+  }
+  .learning-icon {
+    width: 50px;
+    height: 50px;
+    padding-left: 35px;
+  }
+  .percent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .learning-text span {
+    color: #a2a9c8;
+  }
+  .learning-text {
+    padding: 30px;
+    padding-right: 220px;
+  }
+  .progress-bar-target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#ed7071 53%, white 0);
+    margin-right: 46px;
+  }
+  .progress-bar-target::before {
+    content: "53%";
+  }
+  .complete-web {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+  }
+  .progress-bar-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#0068ff 75%, white 0);
+    margin-right: 46px;
+  }
+  .progress-bar-web::before {
+    content: "75%";
+  }
+  .progress-bar-grow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#cf74ff 14%, white 0);
+    margin-right: 46px;
+  }
+  .progress-bar-grow::before {
+    content: "14%";
+  }
+  .grow-community {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+  }
+  .planning {
+    display: flex;
+    color: #a2a9c8;
+    padding-left: 40px;
+  }
+  .planning .left-arrow {
+    padding-left: 30px;
+    border-radius: 20px;
+  }
+  .planning .right-arrow {
+    padding: 0px 0px;
+  }
+  .cal-label {
+    padding: 20px 40px;
+    color: #a2a9c8;
+    display: flex;
+    justify-content: space-between;
+  }
+  span {
+    display: ;
+    justify-content: space-around;
+  }
+  @media (max-width: 480px) {
+    .total-div {
+      grid-template-columns: 1fr;
+    }
+  }
+  
